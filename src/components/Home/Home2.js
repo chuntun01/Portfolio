@@ -13,39 +13,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a passionate Software Developer who loves transforming ideas into reliable, scalable applications. With around <b>1 year of hands-on experience</b> (including a Software Engineering internship at VNVC and freelance work), I specialize in building efficient backend systems and intuitive user interfaces.
               <br />
               <br />
-              I’m proficient in
+              I am highly proficient in the <b>TypeScript ecosystem</b>:
               <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, C#, python, typeScript, React.js, Next.js,
-                  Node.js, and Java{" "}
-                </b>
+                <b className="purple"> TypeScript, Node.js, NestJS, React, Next.js, and Databases like PostgreSQL/MongoDB. </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
               <br />
               <br />
-              My key areas of interest include developing
+              My key focus areas are developing secure 
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, game development{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+                <b className="purple"> Web Applications, Access-Controlled Portals (IAM/RBAC), </b>
+              </i> and integrating advanced
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+                <b className="purple"> AI solutions (RAG architecture, OpenAI/OpenRouter APIs) </b>
+              </i> to solve real-world problems.
+              <br />
+              <br />
+              Whenever possible, I apply clean code practices, Git workflow with merge requests/code reviews, and active ownership to deliver full production-ready products.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

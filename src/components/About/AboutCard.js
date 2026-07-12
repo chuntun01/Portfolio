@@ -8,16 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{textAlign: "justify"}}>
-            Hi everyone! I’m <span className="purple">Trung Tuấn</span> from{" "}
-            <span className="purple">Gialai, Vietnam</span>.
+            Hi everyone! I’m <span className="purple">Hồ Trung Tuấn</span> from{" "}
+            <span className="purple">Hồ Chí Minh, Vietnam</span>.
             <br />
-            I’m currently just <span className="purple">
-              graduated
-            </span> and{" "}
-            <span className="purple">looking for opportunities</span>.
-            <br />I have 4 months of experience work at{" "}
-            <span className="purple">VNVC</span>
-            <span className="purple"></span>.
+            I am a <span className="purple">Software Engineering</span> graduate from <span className="purple">Nguyen Tat Thanh University</span> (expecting degree in 09/2026).
+            <br />
+            I have worked as an Intern Software Engineer at <span className="purple">VNVC Vaccination Center</span> for 4 months, and as a freelance Fullstack Developer designing and delivering a complete <span className="purple">CRM Web Portal</span>.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -26,18 +22,18 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Exploring New AI Technologies & APIs 🤖
             </li>
             <li className="about-activity">
-              <ImPointRight /> exploring new technology ✍️
+              <ImPointRight /> Playing Video Games 🎮
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Traveling & Exploring New Places 🌍
             </li>
           </ul>
 
           <p style={{color: "rgb(155 126 172)"}}>
-            "Strive to build things that make a difference!"{" "}
+            "Taking ownership and building robust systems that solve real-world problems!"{" "}
           </p>
           <footer className="blockquote-footer">Trung Tuấn</footer>
         </blockquote>
