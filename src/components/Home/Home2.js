@@ -1,6 +1,6 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avt2.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -9,7 +9,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{fontSize: "2.6em"}}>
+            <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -22,7 +22,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My key focus areas are developing secure 
+              My key focus areas are developing secure
               <i>
                 <b className="purple"> Web Applications, Access-Controlled Portals (IAM/RBAC), </b>
               </i> and integrating advanced
@@ -36,7 +36,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ borderRadius: "30px" }} />
             </Tilt>
           </Col>
         </Row>
