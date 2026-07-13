@@ -6,6 +6,7 @@ import aiIam from "../../Assets/Projects/ai_iam.png";
 import crmImg from "../../Assets/Projects/crm.png";
 import askthemallImg from "../../Assets/Projects/askthemall.png";
 import ecommerceImg from "../../Assets/Projects/ecommerce.png";
+import portfolioImg from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
   return (
@@ -57,6 +58,17 @@ function Projects() {
               title="E-commerce Website"
               description="A fully featured personal/academic online store application showcasing product catalogs, search filters, interactive shopping carts, checkout validation flows, and responsive UI design."
               ghLink="https://github.com/chuntun01"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolioImg}
+              isBlog={false}
+              title="Personal Portfolio Website"
+              description="This personal portfolio website designed to showcase my projects, skillset, and experiences. Built with React.js, React-Bootstrap, responsive layouts, typewriter animations, and custom styling, fully deployed on Vercel."
+              ghLink="https://github.com/chuntun01/Portfolio"
+              demoLink="https://portfolio-ask-them-all.vercel.app/"
             />
           </Col>
         </Row>
